@@ -38,7 +38,7 @@ const showProducts = (products) => {
       <h3>${product.title.slice(0,18)}</h3>
       <p>Category: ${product.category}</p>
       <h2>Price: $ ${product.price}</h2>
-       <p>Rate:${reteCount} ${start}</p>
+       <p>Rating ${start} (${reteCount})</p>
        <p> <i class="fas fa-user" id="user"> </i> Reviews :  ${product.rating.count}</p>
       <button onclick="addToCart(${product.id},${product.price})"id="addToCart-btn" class="buy-now btn btn-dark">add to cart</button>
       <button id="details-btn" class="btn btn-danger" onclick="details('${product.id}')" <li class="nav-item mx-2"data-bs-toggle="modal" data-bs-target="#exampleModal"></li>Details</button></div>
